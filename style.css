@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Geologica";
+}
+
+nav {
+    background-color: rgb(224, 178, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+.center a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.center a:hover {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    transition: all 0.2 ease-out;
+}
+input {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: 0;
+}
+.right {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
